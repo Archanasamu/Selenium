@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="leaftapsAutomation.EditLead">
+        <methods>
+          <include name="crmLogin"/>
+          <include name="closeBrowser"/>
+          <include name="setFileName"/>
+          <include name="runEditLead"/>
+        </methods>
+      </class> <!-- leaftapsAutomation.EditLead -->
+      <class name="leaftapsAutomation.DeleteLead">
+        <methods>
+          <include name="crmLogin"/>
+          <include name="closeBrowser"/>
+          <include name="runDeleteLead"/>
+        </methods>
+      </class> <!-- leaftapsAutomation.DeleteLead -->
+      <class name="leaftapsAutomation.CreateLead">
+        <methods>
+          <include name="crmLogin"/>
+          <include name="closeBrowser"/>
+          <include name="runCreateLead"/>
+          <include name="setFileName"/>
+        </methods>
+      </class> <!-- leaftapsAutomation.CreateLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

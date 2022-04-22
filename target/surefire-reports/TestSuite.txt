@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 1.195 s <<< FAILURE! - in TestSuite
+runCreateLead(leaftapsAutomation.CreateLead)  Time elapsed: 0.505 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [runCreateLead] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+
+crmLogin(leaftapsAutomation.EditLead)  Time elapsed: 1.061 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'username' is required by BeforeMethod on method crmLogin but has not been marked @Optional or defined
+in C:\Users\Lenovo\eclipse-workspace\LearnSelenium\testng.xml
+
+crmLogin(leaftapsAutomation.DeleteLead)  Time elapsed: 0 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'username' is required by BeforeMethod on method crmLogin but has not been marked @Optional or defined
+in C:\Users\Lenovo\eclipse-workspace\LearnSelenium\testng.xml
+
